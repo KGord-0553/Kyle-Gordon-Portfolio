@@ -36,6 +36,6 @@ I'm always looking for new opportunities to collaborate on impactful projects!
 
 LinkedIn: https://www.linkedin.com/in/kyle-gordon1/
 
-Portfolio Site: ___
+Portfolio Site: https://kgord-0553.github.io/Kyle-Gordon-Portfolio/
 
 Email: kgordon72503@gmail.com
