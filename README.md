@@ -34,7 +34,7 @@ index.html - The main landing page.
 
 I'm always looking for new opportunities to collaborate on impactful projects!
 
-LinkedIn: ___
+LinkedIn: https://www.linkedin.com/in/kyle-gordon1/
 
 Portfolio Site: ___
 
