@@ -1,0 +1,496 @@
+/*	
+	Student Name: Kyle Gordon
+	File Name: styles.css
+	Date: 4/20/26
+*/
+
+/*CSS Reset*/
+body, header, nav, main, footer, img, h1, h2, p, figure, figcaption, article, section, aside{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/*Style rules for header content*/
+h1{
+	color: #F08CAE;
+	text-align: center;
+	padding: 1%;
+}
+
+.slogan{
+	color: #F08CAE;
+	text-align: center;
+	margin: 0.5em;
+}
+
+/*Style rules for body and images*/
+body{
+	background-color: #1D1A31;
+}
+
+img{
+	max-width: 100%;
+	display: block;
+}
+
+#google-map{
+	width: 600px;
+	height: 450px;
+	border: 5px solid black;
+}
+
+/*Style rules for google fonts*/ 
+
+.montserrat-regular {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lora-regular {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* Show mobile class, hide tablet-desktop class */
+.mobile{ 
+	display: block;
+	text-align: center;
+}
+
+.tablet-desktop, #menu-links{ 
+	display: none;
+}
+
+/* Style for rules for hamburger menu */
+.mobile-nav a{
+	text-align: center;
+	font-size: 2em; 
+	text-decoration: none;
+	padding: 3%;
+	display: block; 
+	color: #F08CAE;
+}
+
+.mobile-nav a .menu-icon{
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+/*Style rules for main content*/
+main{
+	background-color: #a37ca0;
+}
+
+main h2{
+	color: #1D1A31;
+}
+
+main p{
+	color: black;
+	padding: 1%;
+	text-align: center;
+}
+
+#skills-box{
+	color: white;
+	display: flex;
+	justify-content: space-evenly;
+	background-color: #885191;
+	border: 2px inset black;
+	text-align: center;
+	box-shadow: 2px 2px black;
+}
+
+#build-button{
+	background-image: linear-gradient(to bottom, orange, purple);
+	font-family: "Lora", serif;
+	font-size: 20px;
+	color: white;
+	font-weight: bold;
+	height: 75px;
+	width: 300px;
+}
+
+main h2{
+	color: #4D2D52;
+	font-style: italic;
+	padding: 1%;
+}
+
+article{
+	text-align: center;
+}
+
+section{
+	font-size: 1em;
+}
+
+section h2{
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.map{
+	border: 2px solid #4D2D52; 
+	width: 95%;
+	height: 50%;
+}
+
+.round{
+	border-radius: 8px;
+}
+
+.external-link {
+	color: #9A4C95; 
+	font-weight: bold; 
+	text-decoration: none; 
+}
+
+.tel-link{ 
+	background-image: linear-gradient(to right,#9A4C95, #F08CAE);
+	padding: 2%;
+	margin: 0 auto;
+	width: 80%;
+	text-align: center;
+	border-radius: 5px;
+	border: 2px solid black;
+}
+
+.tel-link a{ 
+	color: #fff; 
+	text-decoration: none;
+	font-size: 1.5em;
+	display: block; 
+}
+
+#achievement, #goals{
+	text-align: center;
+	border-bottom: 2px solid #4D2D52;
+	color: black;
+	margin: 20px auto;    
+}
+
+#edu{
+	text-align: center;
+	color: black;
+	margin: 20px auto;   
+}
+
+#contact{
+	text-align: center;
+	margin: 20px auto;   
+}
+
+.hide-ul{
+	list-style-type: none;
+}
+
+.mobile-port-img-hori {
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    width: 350px;
+    height: 200px;
+    border: 2px ridge silver;
+    margin: 20px auto;     
+}
+
+.mobile-port-img-vert {
+    display: flex;
+    justify-content: center; 
+    align-items: center;   
+    width: 150px;
+    height: 300px;
+    border: 2px ridge silver;
+    margin: 20px auto;    
+}
+
+/* Style rules for form elements */ 
+fieldset, input, select, textarea{
+	margin-bottom: 2%;
+}
+
+fieldset legend{
+	font-weight: bold;
+	font-size: 1.25em;
+}
+
+label{
+	display: block;
+	padding-top: 3%;
+}
+
+form #submit{
+	margin: 0 auto; 
+	border: none;
+	display: block; 
+	padding: 2%;
+	background-image: linear-gradient(to right,#9A4C95, #F08CAE);
+	border-radius: 10px;
+	font-size: 16px;
+	font-family: "Lora", serif;
+	font-weight: bold;
+	height: 75px;
+	width: 120px;
+}
+ 
+/*Style rules for footer content*/
+footer p{
+	text-align: center;
+	font-size: 1.25em;
+	background-color: #1D1A31;
+	color: #F08CAE;
+	padding: 0 1em;
+}
+
+footer p a{
+	text-decoration: none;
+	color: #C1A5A9;
+}
+
+/*Media Query for Tablet Viewport */
+@media screen and (min-width: 732px), print{
+
+.tablet-desktop{ 
+	display: block;
+}	
+
+.mobile, .mobile-nav{ 
+	display: none;
+}
+
+/* Header */
+header{
+	position: static;
+	padding-bottom: 2%;
+}
+
+#profilepicture{
+	display: block;
+	border: 5px inset #C1A5A9;
+	margin: 10px auto;
+}
+
+/* Nav */ 
+nav{
+	padding: 1%;
+}
+
+nav ul{
+	list-style-type: none; 
+	margin: 0;
+	text-align: center;
+}
+
+nav li{
+	display: inline-block;
+	border-right: 1px solid #C1A5A9;
+	font-size: 1.5em;
+}
+
+nav li:last-child { 
+	border-right: none;
+}
+
+nav li a {
+	padding: 0.1em 0.75em;
+	display: block;
+	color: #F08CAE;
+	text-decoration: none;
+	text-align: center;
+}
+
+/* Main */
+main{
+	background-image: linear-gradient(to right, #4D2D52, #3e215f);
+	color: #ffffff;
+}
+
+main p, main h2{
+	color: #C1A5A9;
+}
+
+div li{
+	color: #ffffff;
+}
+
+section{
+	color: #ffffff;
+}
+
+aside{
+	background-color: rgba(193, 165, 169, 0.3);
+	box-shadow: 5px 5px 8px #000;
+}
+
+/* Table */
+table{ 
+	margin: 20px auto;
+    border-collapse: collapse;
+}
+
+caption{
+	font-weight: bold;
+	font-size: 22px;
+	padding: 2%;
+}
+
+th, td {
+	border: 1px solid #F08CAE; 
+	padding: 2%;
+}
+
+th {
+	color: #fff;
+	font-size: 18px;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: row;      
+    align-items: stretch;         
+    text-align: center;
+    justify-content: space-evenly;
+	margin-bottom: 10px;
+}
+
+.work-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #885191;
+    color: black;
+    border: 3px ridge black;
+    align-items: center;
+    margin: 0 10px; 
+    flex: 1; 
+}
+
+.work-container img{
+	width: 300px;
+	height: 200px;
+	border: 2px solid silver;
+}
+
+.work-container a, .work-container p:last-child {
+    margin-top: auto;
+    padding-top: 15px;
+}
+
+.work-container-td{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: row;               
+    justify-content: center;
+    gap: 20px;    
+    text-align: center;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;  
+    align-items: center;    
+    gap: 5px;                
+}
+
+.contact-container select {
+    font-family: "Lora", serif;
+}
+
+#poster{
+	width: 350px;
+	height: 200px;
+	border: 2px solid silver;
+}
+
+#occurency{
+	width: 350px;
+	height: 200px;
+	border: 2px solid silver;
+}
+
+#csl{
+	width: 150px;
+	height: 250px;
+	border: 2px solid silver;
+}
+
+}
+
+/* Desktop */
+@media screen and (min-width: 769px), print{ 
+
+nav li a:hover {
+	font-weight: bold;
+	font-size: 1.10em;
+}
+
+.growing-text {
+  animation: grow 2s ease-in-out forwards;
+  transform-origin: center;
+}
+
+@keyframes grow {
+  0% {
+    transform: scale(1);
+    opacity: 0.5;
+  }
+  50% {
+    transform: scale(1.5);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.spin-text {
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 
+        1px 1px 0px #e63946, 
+        2px 2px 0px #f77f00, 
+        3px 3px 0px #fcbf49, 
+        4px 4px 0px #a8dadc, 
+        5px 5px 0px #457b9d;
+    transform: rotateY(0deg);
+    transform-style: preserve-3d;
+    animation: spin-3d 4s infinite linear;
+}
+
+@keyframes spin-3d {
+    0% {
+        transform: rotateY(0deg);
+    }
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+
+aside{
+	background-color: rgba(193, 165, 169, 0.3);
+}
+
+}
+
+/* Large Desktop */
+@media screen and (min-width: 1921px) {
+#container {
+	width: 1920px;
+	margin: 0 auto; 
+}
+}
