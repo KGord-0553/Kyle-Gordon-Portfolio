@@ -2,140 +2,116 @@
 <!--This website was created by: Kyle Gordon, 4/20/26 -->
 <html lang="en">
 <head>
-
-	<title>Kyle Gordon's Portfolio &#9475; Proficient in HTML/CSS, Javascript, Adobe &#9475; Web Designer, Graphic Designer, UX/UI Designer</title>
-	<meta charset="utf-8">
-	<link rel="stylesheet" href="css/styles.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="A hardworking, efficient UX/UI Designer creating top quality products">
-	<link rel="shortcut icon" href="images/favicon.ico"> 
-	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png"> 
-	<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png"> 
-	<link rel="icon" sizes="192x192" href="images/android-chrome-192.png">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
+    <title>Graphic Design & 3D Work &#9475; Kyle Gordon &#9475; Proficient in HTML/CSS, Javascript, Adobe &#9475; Web Designer, Graphic Designer, UX/UI Designer</title></title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Explore graphic design, typography, and 3D modeling projects by Kyle Gordon, including 3D models, poster designs, and expressive typography.">
+    <link rel="shortcut icon" href="images/favicon.ico"> 
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png"> 
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png"> 
+    <link rel="icon" sizes="192x192" href="images/android-chrome-192.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
 <div id="container">
-	<!--Mobile Nav -->
-	<nav class="mobile-nav montserrat-regular">
-	   <div id="menu-links">
-			<a href="index.html">Home</a>
-			<a href="about.html">About Me</a>
-			<a href="pastsites.html">UI/UX Work</a>
-			<a href="pastgraphic.html">Graphic Work</a>
-			<a href="contact.html">Contact Me</a>
-	   </div>
-	   <a class="menu-icon" onclick="hamburger()">
-			<div>&#9776;</div>
-	   </a>
-	</nav>
+    <header class="montserrat-regular">
+        <h1>Kyle Gordon</h1>
+        <figure>
+            <img id="profilepicture" src="images/kyle_port_image_225x300.jpeg" alt="Kyle Gordon Profile Photo">
+            <figcaption class="slogan growing-text">Passionate, Go-Getting, Certified UX/UI Designer</figcaption>
+        </figure>
+    </header>
 
-<header class="montserrat-regular">
-	<h1>Kyle Gordon</h1>
-	<figure>
-		<img class="tablet-desktop" id="profilepicture" src="images/kyle_port_image_225x300.jpeg" alt="Student Portfolio Photo">
-		<figcaption class="slogan growing-text">Passionate, Go-Getting, Certified UX/UI Designer</figcaption>
-	</figure>
-</header>
+    <!-- Unified Navigation (Moved under Header) -->
+    <nav class="montserrat-regular">
+        <button class="menu-icon" onclick="hamburger()" aria-expanded="false" aria-label="Toggle navigation menu">
+            &#9776;
+        </button>
+        <ul id="menu-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="pastsites.html">My UI/UX Work</a></li>
+            <li><a href="pastgraphic.html">My Graphic Work</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+        </ul>
+    </nav>
+    <hr>
 
-<!--Tablet-Desktop Nav --> 
-<nav>
-	<ul class="montserrat-regular tablet-desktop">
-		<li><a href="index.html">Home</a></li>
-		<li><a href="about.html">About Me</a></li>
-		<li><a href="pastsites.html">My UI/UX Work</a></li>
-		<li><a href="pastgraphic.html">My Graphic Work</a></li>
-		<li><a href="contact.html">Contact Me</a></li>
-	</ul>
-</nav>
+    <main class="lora-regular">
+        <section class="intro-section">
+            <h2>Graphic & 3D Design</h2>
+            <p class="lead-text">Alongside web and app development, I create visual media ranging from branding and expressive typography to real-time 3D models. Explore selected graphic design projects created in Adobe Creative Suite and WebGL below.</p>
+        </section>
 
-<main class="lora-regular">
-	<article>
-	
-		<h2>Past Graphics</h2>
-		
-		<section>
-		
-			<h3>Along with the creation of websites and apps have come the creations of graphics that go alongside them, or graphics 
-			I've created simply to improve my skills and vision for design. Below are the top graphics I've created, from work in 
-			Adobe Photoshop or Abode Illustrator to fine crafted 3D Models!</h3>
-			
-		</section>
-		
-		<div class="content-container">
-			<div class="work-container">
-				<h3>Steve The Snowman</h3>
-				<div class="mobile">
-					<img class="mobile mobile-port-img-hori" src="images/steve-t-snowman.jpg" alt="Steve The Snowman - Mobile">
-					<p>A 3D model of a snowman built as the final project for my Computer Graphics class, with its own shading and camera 
-					controls.</p>
-				</div>
-				<div class="tablet-desktop work-container-td">
-					<img src="images/steve-t-snowman.jpg" alt="Steve The Snowman - Tablet/Desktop">
-					<p>Steve the Snowman is a comprehensive 3D model developed as the capstone project for my Computer Graphics course. 
-					This project went beyond just the model; it involved the intricate implementation of dynamic lighting to create realistic 
-					shadows and a controllable camera system that allows users to explore the 3D space from various perspectives. 
-					To add a layer of interactivity and personality, I programmed a custom animation trigger that allows Steve to move his hat 
-					up and down, demonstrating my ability to combine technical coding with creative character design.
-					</p>
-				</div>
-			</div>
-			
-			<hr class="mobile">	
-			
-			<div class="work-container">
-				<h3>Expressive Typography</h3>
-				<div class="mobile">
-					<img class="mobile mobile-port-img-hori" src="images/expressive-text-project.jpg" alt="Expressive Typography - Mobile">
-					<p>A project that challenged me to convey feeling and expressiveness behind a quote using only words and colors.</p>
-				</div>
-				<div class="tablet-desktop work-container-td">
-					<img src="images/expressive-text-project.jpg" alt="Expressive Typography - Tablet/Desktop">
-					<p>This graphic was developed during my Graphic Design course, where I was challenged to take a meaningful quote and transform
-					it into a visual narrative. I selected a quote from one of my favorite games and meticulously deconstructed the text into 
-					individual components to manipulate its weight and flow. By applying a custom color palette and strategic spacing, I aimed to 
-					evoke the serene yet powerful imagery of a rising dawn over a coastal horizon. This project highlights my ability to use 
-					typography as a design element to convey emotion and enhance a message beyond simple legibility.</p>
-				</div>
-			</div>
-			
-			<hr class="mobile">
-			
-			<div class="work-container">
-				<h3>Poster Design</h3>
-				<div class="mobile">
-					<img class="mobile-port-img-hori" src="images/poster-design-project.jpg" alt="Poster Design - Mobile">
-					<p>A informational poster for the tropical island of Maui, designed as a project for my Graphic Design class.</p>
-				</div>
-				<div class="tablet-desktop work-container-td">
-					<img id="poster" src="images/poster-design-project.jpg" alt="Poster Design - Tablet/Desktop">
-					<p>Created as a focal piece for my Graphic Design class, this poster serves as a travel-inspired tribute to the island of 
-					Maui, a location that holds significant personal meaning for me. The design process involved sourcing high-resolution 
-					environmental imagery and pairing it with curated font selections that reflect the tropical, vibrant energy of the island. 
-					I utilized advanced layering techniques to weave text both into the foreground and background, creating a sense of 
-					three-dimensional depth. To reward the attentive viewer, I even integrated a "hidden" fun fact into the texture of the 
-					sand, showcasing my attention to detail and creative storytelling.</p>
-				</div>
-			</div>
-			
-		</div>
-		
-	</article>
+        <!-- Project Cards Container -->
+        <section class="project-grid">
+            
+            <!-- Graphic 1: Steve The Snowman -->
+            <article class="project-card">
+                <h3>Steve The Snowman</h3>
+                <div class="project-content">
+                    <figure class="project-media">
+                        <img src="images/steve-t-snowman.jpg" alt="Steve The Snowman 3D Model Rendering">
+                    </figure>
+                    <div class="project-details">
+                        <p class="role-tag"><strong>Medium:</strong> 3D Modeling & WebGL &#9475; Computer Graphics Capstone</p>
+                        <p>Steve the Snowman is an interactive 3D model developed as the capstone project for my Computer Graphics course. Beyond geometry creation, this project required technical implementation of dynamic lighting, realistic shadow mapping, and a user-controlled orbital camera system.</p>
+                        <p>To add personality and test interactivity, I programmed custom animations allowing Steve to tip his hat, bridging creative character design with complex graphics programming.</p>
+                        <!--<a href="#" class="project-btn" target="_blank" rel="noopener">View 3D Demo &rarr;</a>-->
+                    </div>
+                </div>
+            </article>
 
-</main>
+            <!-- Graphic 2: Expressive Typography -->
+            <article class="project-card">
+                <h3>Expressive Typography</h3>
+                <div class="project-content">
+                    <figure class="project-media">
+                        <img src="images/expressive-text-project.jpg" alt="Expressive Typography Visual Artwork">
+                    </figure>
+                    <div class="project-details">
+                        <p class="role-tag"><strong>Medium:</strong> Typography & Layout &#9475; Graphic Design</p>
+                        <p>Created during my Graphic Design coursework, this piece deconstructs a quote from a video game into a standalone visual narrative. The goal was conveying narrative emotion using typography, hierarchy, and color alone.</p>
+                        <p>By manipulating font weight, tracking, and a custom dawn-inspired color palette, the typography evokes the feeling of a morning horizon, proving how text styling reinforces messaging beyond basic readability.</p>
+                        <!--<a href="#" class="project-btn" target="_blank" rel="noopener">View Graphic &rarr;</a>-->
+                    </div>
+                </div>
+            </article>
+
+            <!-- Graphic 3: Poster Design -->
+            <article class="project-card">
+                <h3>Maui Poster Design</h3>
+                <div class="project-content">
+                    <figure class="project-media">
+                        <img src="images/poster-design-project.jpg" alt="Maui Travel Poster Artwork">
+                    </figure>
+                    <div class="project-details">
+                        <p class="role-tag"><strong>Medium:</strong> Print & Digital Media &#9475; Adobe Illustrator / Photoshop</p>
+                        <p>Designed as a focal print piece, this poster serves as a travel tribute to the island of Maui. The creative process involved combining high-resolution environment imagery with curated typography reflecting the vibrant energy of the tropics.</p>
+                        <p>I utilized layer masking and depth-of-field techniques to weave text behind foreground elements, while embedding subtle micro-details (including a hidden fun fact in the sand texture) for attentive viewers.</p>
+                        <!--<a href="#" class="project-btn" target="_blank" rel="noopener">View Full Poster &rarr;</a>-->
+                    </div>
+                </div>
+            </article>
+
+        </section>
+    </main>
 </div>
 
+<hr>
+
 <footer>
-	<p>Kyle Gordon - UX/UI Designer</p>
-	<p>&#169; Copyright 2026. All Rights Reserved.</p>
-	<p>(586) 634-3604</p>
-	<p><a href="mailto:kgordon72503@gmail.com">kgordon72503@gmail.com</a></p>
+    <b>
+        <p>Kyle Gordon - UX/UI Designer</p>
+        <p>&#169; Copyright 2026. All Rights Reserved.</p>
+        <p><a href="tel:+15866343604">(586) 634-3604</a></p>
+        <p><a href="mailto:kgordon72503@gmail.com">kgordon72503@gmail.com</a></p>
+    </b>
 </footer>
 
 <script src="scripts/script.js"></script> 
-
 </body>
 </html>
