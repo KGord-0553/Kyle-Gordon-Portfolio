@@ -2,140 +2,117 @@
 <!--This website was created by: Kyle Gordon, 4/20/26 -->
 <html lang="en">
 <head>
-
-	<title>Kyle Gordon's Portfolio &#9475; Proficient in HTML/CSS, Javascript, Adobe &#9475; Web Designer, Graphic Designer, UX/UI Designer</title>
-	<meta charset="utf-8">
-	<link rel="stylesheet" href="css/styles.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="A hardworking, efficient UX/UI Designer creating top quality products">
-	<link rel="shortcut icon" href="images/favicon.ico"> 
-	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png"> 
-	<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png"> 
-	<link rel="icon" sizes="192x192" href="images/android-chrome-192.png">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
+    <title>My UI/UX Work &#9475; Kyle Gordon &#9475; Proficient in HTML/CSS, Javascript, Adobe &#9475; Web Designer, Graphic Designer, UX/UI Designer</title></title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Explore UI/UX design and web development projects by Kyle Gordon, including Occurency, Crocs Swim Log, and explAIn.">
+    <link rel="shortcut icon" href="images/favicon.ico"> 
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png"> 
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png"> 
+    <link rel="icon" sizes="192x192" href="images/android-chrome-192.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
 <div id="container">
-	<!--Mobile Nav -->
-	<nav class="mobile-nav montserrat-regular">
-	   <div id="menu-links">
-			<a href="index.html">Home</a>
-			<a href="about.html">About Me</a>
-			<a href="pastsites.html">UI/UX Work</a>
-			<a href="pastgraphic.html">Graphic Work</a>
-			<a href="contact.html">Contact Me</a>
-	   </div>
-	   <a class="menu-icon" onclick="hamburger()">
-			<div>&#9776;</div>
-	   </a>
-	</nav>
+    <header class="montserrat-regular">
+        <h1>Kyle Gordon</h1>
+        <figure>
+            <img id="profilepicture" src="images/kyle_port_image_225x300.jpeg" alt="Kyle Gordon Profile Photo">
+            <figcaption class="slogan growing-text">Passionate, Go-Getting, Certified UX/UI Designer</figcaption>
+        </figure>
+    </header>
 
-<header class="montserrat-regular">
-	<h1>Kyle Gordon</h1>
-	<figure>
-		<img class="tablet-desktop" id="profilepicture" src="images/kyle_port_image_225x300.jpeg" alt="Student Portfolio Photo">
-		<figcaption class="slogan growing-text">Passionate, Go-Getting, Certified UX/UI Designer</figcaption>
-	</figure>
-</header>
+    <!-- Unified Navigation (Moved under Header) -->
+    <nav class="montserrat-regular">
+        <button class="menu-icon" onclick="hamburger()" aria-expanded="false" aria-label="Toggle navigation menu">
+            &#9776;
+        </button>
+        <ul id="menu-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="pastsites.html">My UI/UX Work</a></li>
+            <li><a href="pastgraphic.html">My Graphic Work</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+        </ul>
+    </nav>
 
-<!--Tablet-Desktop Nav --> 
-<nav>
-	<ul class="montserrat-regular tablet-desktop">
-		<li><a href="index.html">Home</a></li>
-		<li><a href="about.html">About Me</a></li>
-		<li><a href="pastsites.html">My UI/UX Work</a></li>
-		<li><a href="pastgraphic.html">My Graphic Work</a></li>
-		<li><a href="contact.html">Contact Me</a></li>
-	</ul>
-</nav>
+    <hr>
 
-<main class="lora-regular">
-	<article>
-	
-		<h2>Past Projects</h2>
-		
-		<section>
-		
-			<h3>I've been coding for a while, so over time my experience has added up to a lot of different computer creations.
-			Below here I have links to the websites I've had a hand in making or created on my own, and even a small text-based 
-			adventure game I created in Python!</h3>
-			
-		</section>
-		
-		<div class="content-container">
-			<div class="work-container">
-				<h3>Occurency</h3>
-				<div class="mobile">
-					<img class="mobile-port-img-hori" src="images/occurency_portfolio_ss.jpg" alt="Occurency Homepage - Mobile">
-					<p> An event planning website built for my senior Web Application Programming project, where I served as the 
-					Lead UI Designer.</p>
-				</div>
-				
-				<div class="tablet-desktop work-container-td">
-					<img id="occurency" src="images/occurency_portfolio_ss.jpg" alt="Occurency Homepage - Tablet/Desktop">
-					<p>For my senior Web Application Programming project, I served as the Lead UI Designer for Occurency. 
-					Beyond just making the site look good, I was responsible for bridging the gap between complex back-end functionality 
-					and a user-friendly front-end. I developed the CSS framework that maintains brand consistency across core pages 
-					and focuses on intuitive navigation to ensure users could plan events with zero friction. This project sharpened my 
-					ability to translate conceptual requirements into a polished, functional digital product.</p>
-				</div>
-			</div>
-			
-			<hr class="mobile">
-			
-			<div class="work-container">
-				<h3>Crocs Swim Log</h3>
-				<div class="mobile">
-					<img class="mobile-port-img-vert" src="images/csl_portfolio_ss.jpg" alt="Crocs Swim Log Main Page - Mobile">
-					<p>An Android app designed to help swimmers of all skill levels log workouts, where I designed the UI.</p>
-				</div>
-				<div class="tablet-desktop work-container-td">
-					<img id="csl" src="images/csl_portfolio_ss.jpg" alt="Crocs Swim Log Main Page - Tablet/Desktop">
-					<p>Crocs Swim Log was born out of a desire to simplify the way athletes track their performance. 
-					As a national level swimmer myself and as an aspiring designer, I felt inspired by this project like no other. 
-					I was challenged to rethink the user journey for someone who is likely at the pool and needs to input data with zero 
-					friction. I prioritized a clean, bottom-navigation flow and a bold, energetic color palette to match the intensity of the 
-					sport I love. This project allowed me to explore the structural differences between web and mobile design, ultimately 
-					teaching me how to craft an experience that feels native, intuitive, and responsive to the user's immediate needs.</p>
-				</div>
-			</div>
-			
-			<hr class="mobile">
-						
-			<div class="work-container">
-				<h3>explAIn</h3>
-				<div class="mobile">
-					<img class="mobile-port-img-hori" src="images/explAIn_portfolio_ss.jpg" alt="explAIn Chatbot Page - Mobile">
-					<p>An AI Chatbot designed for ease of use for a 50+ year old audience. I served as Lead Designer for the Project.</p>
-				</div>
-				<div class="tablet-desktop work-container-td">
-					<img src="images/explAIn_portfolio_ss.jpg" alt="explAIn Chatbot Page - Tablet/Desktop">
-					<p>explAIn was born out of a fascinating final group project for my Writing for the Web class, which focused on the 
-					way websites can bring out stories and audiences. The goal was to create the frontend for an AI website, like 
-					ChatGPT or Google Gemini, and make it cater more towards an 50+ year old audience. Taking this idea, I oversaw the overall
-					design of the website, keeping the color scheme simple but striking and the flow clean and clear with a standard top to 
-					bottom approach. It pushed me as a designer to truly understand the target demographic of what I'm desgining, and come up 
-					with visually appealing and well functioning solutions.</p>
-				</div>
-			</div>
-		</div>
-		
-	</article>
+    <main class="lora-regular">
+        <section class="intro-section">
+            <h2>UI/UX Projects</h2>
+            <p class="lead-text">I've been coding and designing for years, building digital products ranging from full-stack web applications and mobile apps to AI interfaces. Explore my key UI/UX case studies below.</p>
+        </section>
 
-</main>
+        <!-- Project Cards Container -->
+        <section class="project-grid">
+            
+            <!-- Project 1: Occurency -->
+            <article class="project-card">
+                <h3>Occurency</h3>
+                <div class="project-content">
+                    <figure class="project-media">
+                        <img src="images/occurency_portfolio_ss.jpg" alt="Occurency Event Planning Web Application Interface">
+                    </figure>
+                    <div class="project-details">
+                        <p class="role-tag"><strong>Role:</strong> Lead UI Designer &#9475; Senior Capstone</p>
+                        <p>For my senior Web Application Programming project, I served as Lead UI Designer for Occurency—an intuitive event planning application. Beyond visual aesthetics, I was responsible for bridging the gap between complex back-end data architecture and a seamless front-end experience.</p>
+                        <p>I established the core CSS framework that maintained brand consistency across all user flows, focusing on friction-free navigation and accessible event discovery.</p>
+                        <!--<a href="#" class="project-btn" target="_blank" rel="noopener">View Live Project &rarr;</a>-->
+                    </div>
+                </div>
+            </article>
+
+            <!-- Project 2: Crocs Swim Log -->
+            <article class="project-card">
+                <h3>Crocs Swim Log</h3>
+                <div class="project-content">
+                    <figure class="project-media">
+                        <img src="images/csl_portfolio_ss.jpg" alt="Crocs Swim Log Mobile Application Interface">
+                    </figure>
+                    <div class="project-details">
+                        <p class="role-tag"><strong>Role:</strong> UI/UX Designer &#9475; Mobile App</p>
+                        <p>Born out of my experience as a national-level collegiate swimmer, Crocs Swim Log is an Android application engineered to help athletes track workout telemetry poolside with zero friction.</p>
+                        <p>I designed a clean, ergonomic bottom-navigation system optimized for one-handed touch interactions, paired with a high-contrast, energetic visual palette tailored for active pool deck environments.</p>
+                        <!--<a href="#" class="project-btn" target="_blank" rel="noopener">View Case Study &rarr;</a>-->
+                    </div>
+                </div>
+            </article>
+
+            <!-- Project 3: explAIn -->
+            <article class="project-card">
+                <h3>explAIn</h3>
+                <div class="project-content">
+                    <figure class="project-media">
+                        <img src="images/explAIn_portfolio_ss.jpg" alt="explAIn AI Chatbot Web Interface">
+                    </figure>
+                    <div class="project-details">
+                        <p class="role-tag"><strong>Role:</strong> Lead UX/UI Designer &#9475; Web Application</p>
+                        <p>explAIn was designed as an accessible AI chatbot frontend tailored specifically for non-digital native demographics (ages 50+). Developed during my Writing for the Web coursework, the goal was demystifying AI interactions.</p>
+                        <p>I structured a top-to-bottom conversational visual flow, high-legibility typography hierarchies, and simplified input controls to minimize cognitive load and enhance user confidence.</p>
+                        <!--<a href="#" class="project-btn" target="_blank" rel="noopener">View Prototype &rarr;</a>-->
+                    </div>
+                </div>
+            </article>
+
+        </section>
+    </main>
 </div>
 
+<hr>
+
 <footer>
-	<p>Kyle Gordon - UX/UI Designer</p>
-	<p>&#169; Copyright 2026. All Rights Reserved.</p>
-	<p>(586) 634-3604</p>
-	<p><a href="mailto:kgordon72503@gmail.com">kgordon72503@gmail.com</a></p>
+    <b>
+        <p>Kyle Gordon - UX/UI Designer</p>
+        <p>&#169; Copyright 2026. All Rights Reserved.</p>
+        <p><a href="tel:+15866343604">(586) 634-3604</a></p>
+        <p><a href="mailto:kgordon72503@gmail.com">kgordon72503@gmail.com</a></p>
+    </b>
 </footer>
 
 <script src="scripts/script.js"></script> 
-
 </body>
 </html>
