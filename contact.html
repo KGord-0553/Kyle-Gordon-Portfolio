@@ -2,137 +2,131 @@
 <!--This website was created by: Kyle Gordon, 4/20/26 -->
 <html lang="en">
 <head>
-
-	<title>Kyle Gordon's Portfolio &#9475; Proficient in HTML/CSS, Javascript, Adobe &#9475; Web Designer, Graphic Designer, UX/UI Designer</title>
-	<meta charset="utf-8">
-	<link rel="stylesheet" href="css/styles.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="A hardworking, efficient UX/UI Designer creating top quality products">
-	<link rel="shortcut icon" href="images/favicon.ico"> 
-	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png"> 
-	<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png"> 
-	<link rel="icon" sizes="192x192" href="images/android-chrome-192.png">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
+    <title>Contact Me &#9475; Kyle Gordon &#9475; Proficient in HTML/CSS, Javascript, Adobe &#9475; Web Designer, Graphic Designer, UX/UI Designer</title></title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Get in touch with Kyle Gordon, UX/UI Designer and Web Developer. Reach out via phone, email, or send feedback using the contact form.">
+    <link rel="shortcut icon" href="images/favicon.ico"> 
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png"> 
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png"> 
+    <link rel="icon" sizes="192x192" href="images/android-chrome-192.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
 <div id="container">
-	<!--Mobile Nav -->
-	<nav class="mobile-nav montserrat-regular">
-	   <div id="menu-links">
-			<a href="index.html">Home</a>
-			<a href="about.html">About Me</a>
-			<a href="pastsites.html">UI/UX Work</a>
-			<a href="pastgraphic.html">Graphic Work</a>
-			<a href="contact.html">Contact Me</a>
-	   </div>
-	   <a class="menu-icon" onclick="hamburger()">
-			<div>&#9776;</div>
-	   </a>
-	</nav>
 
-<header class="montserrat-regular">
-	<h1>Kyle Gordon</h1>
-	<figure>
-		<img class="tablet-desktop" id="profilepicture" src="images/kyle_port_image_225x300.jpeg" alt="Student Portfolio Photo">
-		<figcaption class="slogan growing-text">Passionate, Go-Getting, Certified UX/UI Designer</figcaption>
-	</figure>
-</header>
+    <header class="montserrat-regular">
+        <h1>Kyle Gordon</h1>
+        <figure>
+            <img id="profilepicture" src="images/kyle_port_image_225x300.jpeg" alt="Kyle Gordon Profile Photo">
+            <figcaption class="slogan growing-text">Passionate, Go-Getting, Certified UX/UI Designer</figcaption>
+        </figure>
+    </header>
 
-<!--Tablet-Desktop Nav --> 
-<nav>
-	<ul class="montserrat-regular tablet-desktop">
-		<li><a href="index.html">Home</a></li>
-		<li><a href="about.html">About Me</a></li>
-		<li><a href="pastsites.html">My UI/UX Work</a></li>
-		<li><a href="pastgraphic.html">My Graphic Work</a></li>
-		<li><a href="contact.html">Contact Me</a></li>
-	</ul>
-</nav>
+    <!-- Unified Navigation (Moved under Header) -->
+    <nav class="montserrat-regular">
+        <button class="menu-icon" onclick="hamburger()" aria-expanded="false" aria-label="Toggle navigation menu">
+            &#9776;
+        </button>
+        <ul id="menu-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="pastsites.html">My UI/UX Work</a></li>
+            <li><a href="pastgraphic.html">My Graphic Work</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+        </ul>
+    </nav>
 
-<main class="lora-regular">
+    <main class="lora-regular">
+        
+        <!-- Contact Information & Map Section -->
+        <section class="contact-section">
+            <h2>Get In Touch</h2>
+            <div class="contact-grid">
+                
+                <div class="contact-info-card">
+                    <h3>Contact Information</h3>
+                    <p><strong>Phone:</strong> <a href="tel:+15866343604">(586) 634-3604</a></p>
+                    <p><strong>Email:</strong> <a href="mailto:kgordon72503@gmail.com">kgordon72503@gmail.com</a></p>
+                    <p><strong>Campus Location:</strong><br>1 Campus Dr, Allendale, MI 49401<br><em>Grand Valley State University</em></p>
+                </div>
 
-	<div id="contact">
-	
-		<h2>Interested In My Work? Contact Me Here:</h2>
-		<h4> <a class="mobile tel-link" href=“tel:+15866343604”>Call Me At: (586) 634-3604</a></h4> 
-		<h4 class="tablet-desktop tel-num">(586) 634-3604</h4> 
-		<h4>Email Me: <a href="mailto:kgordon72503@gmail.com" class="contact-email-link">kgordon72503@gmail.com</a></h4>
-		<h4>My College is Here: 1 Campus Dr, Allendale, MI 49401</h4>
-		
-		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2919.6717137173564!2d-85.89161532450466!3d42.964122071143215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8819a31f0c9d398f%3A0xea0367b3e0ec32fa!2sGrand%20Valley%20State%20University!5e0!3m2!1sen!2sus!4v1706282825651!5m2!1sen!2sus" 
-		id="google-map" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-		
-	</div>
-	
-	<div id="form"> 
-		<h2>Have any comments about my site or how I could improve it? Please let me know below!</h2>
-		
-		<form class="form-grid">
-			<fieldset>
-			
-				<legend>Contact Info</legend> 
-				
-				<div class="contact-container">
-					<div class="form-group">
-						<label for="fname">First Name:</label>
-						<input type="text" id="fname" name="firstname" required>
-					</div>
-					
-					<div class="form-group">
-						<label for="lName">Last Name:</label>
-						<input type="text" name="lName" id="lName" required>
-					</div>
-					
-					<div class="form-group">
-						<label for="email">Email:</label> 
-						<input type="email" name="email" id="email" required>  
-					</div>
-					
-				</div>
-				
-				<br>
-				
-				<div class="contact-container">
-					<div class="form-group">
-						<label for="improve">Put your comment here:</label> 
-						<textarea id="improve" name="improve" rows="5" cols="35"></textarea>
-					</div>
-					
-					<div class="form-group">
-						<label for="reference">How did you find my site?</label> 
-						<select name="reference" id="reference"> 
-						
-							<option value="social">Social Media</option>
-							<option value="friend">Friend</option> 
-							<option value="google">Google</option>
-							<option value="other">Other</option>
-							
-						</select>
-					</div>
-				</div>
-				
-			</fieldset> 
-			
-			<input type="submit" id="submit" value ="Submit" class="btn"> 
-			
-		</form>
-		
-		</div>
-		
-</main>
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2919.6717137173564!2d-85.89161532450466!3d42.964122071143215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8819a31f0c9d398f%3A0xea0367b3e0ec32fa!2sGrand%20Valley%20State%20University!5e0!3m2!1sen!2sus!4v1706282825651!5m2!1sen!2sus" 
+                            id="google-map" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade" 
+                            title="Grand Valley State University Campus Map">
+                    </iframe>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Feedback Form Section -->
+        <section class="form-section">
+            <h2>Feedback & Inquiries</h2>
+            <p class="form-intro">Have comments about my portfolio, questions about my work, or project inquiries? Please send a message below.</p>
+            
+            <form action="#" method="post" class="contact-form">
+                <fieldset>
+                    <legend class="montserrat-regular">Contact Form</legend>
+                    
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label for="fname">First Name:</label>
+                            <input type="text" id="fname" name="firstname" required placeholder="John">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="lname">Last Name:</label>
+                            <input type="text" id="lname" name="lastname" required placeholder="Doe">
+                        </div>
+                        
+                        <div class="form-group full-width">
+                            <label for="email">Email Address:</label>
+                            <input type="email" id="email" name="email" required placeholder="johndoe@example.com">
+                        </div>
+                        
+                        <div class="form-group full-width">
+                            <label for="reference">How did you find my site?</label>
+                            <select name="reference" id="reference">
+                                <option value="" disabled selected>Select an option...</option>
+                                <option value="social">Social Media</option>
+                                <option value="friend">Friend / Colleague</option>
+                                <option value="google">Search Engine (Google)</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group full-width">
+                            <label for="improve">Your Message or Feedback:</label>
+                            <textarea id="improve" name="improve" rows="5" required placeholder="Share your thoughts or project details here..."></textarea>
+                        </div>
+                    </div>
+                </fieldset>
+                
+                <button type="submit" id="submit" class="submit-btn">Send Message</button>
+            </form>
+        </section>
+
+    </main>
 </div>
 
 <footer>
-	<p>Kyle Gordon - UX/UI Designer</p>
-	<p>&#169; Copyright 2026. All Rights Reserved.</p>
-	<p>(586) 634-3604</p>
-	<p><a href="mailto:kgordon72503@gmail.com">kgordon72503@gmail.com</a></p>
+    <b>
+        <p>Kyle Gordon - UX/UI Designer</p>
+        <p>&#169; Copyright 2026. All Rights Reserved.</p>
+        <p><a href="tel:+15866343604">(586) 634-3604</a></p>
+        <p><a href="mailto:kgordon72503@gmail.com">kgordon72503@gmail.com</a></p>
+    </b>
 </footer>
 
 <script src="scripts/script.js"></script> 
-
 </body>
 </html>
